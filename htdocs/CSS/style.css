@@ -1,0 +1,78 @@
+body{
+    height: 100%;
+    background-image: url("https://images8.alphacoders.com/387/thumb-1920-387220.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    color: white;
+}
+
+form{
+   
+   margin: 5rem 0rem 5rem 7rem;
+   padding: 3rem;
+   border: 0.1px solid white;
+
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.btn-outline-light{
+    margin: 1rem;
+}
+
+
+.myInfos{
+    
+    color: white;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.6));
+    padding: 2rem;
+    
+}
+
+.infoContent{
+    display: inline-block;
+    border:0.5px solid white;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.list-persos{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    padding: 1rem;
+}
+
+.card{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(43, 39, 39, 0.6));
+    border-radius: 5px;
+   
+}
+
+.card-title{
+    font-size: 28px;
+    font-weight:100;
+}
+.card-subtitle{
+    text-transform: uppercase;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px 1px white;
+}
+
+
+    
+
+
+
+
+
+
+
